@@ -1,3 +1,6 @@
+http://example.com/comment/index.html
+http://example.com/link/index.html
+http://example.com/resources/index-1.html
 http://example.com/tags/index.html
 http://example.com/resources/index.html
 http://example.com/about/index.html

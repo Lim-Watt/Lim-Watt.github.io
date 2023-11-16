@@ -1,0 +1,17 @@
+a {
+    transition: all .15s ease;
+    color: #005C97;
+}
+
+a:hover {
+    color: #fa4b4b;
+}
+a{ position: relative; }
+a:not(.exlg-dash-options)::after{ content: ""; width: 0; height: 4px; background: rgba(255, 0, 0, .575); position: absolute; top: 100%; left: 50%; transition: all .3s; }
+a:not(.exlg-dash-options):hover::after{ left: 0%; width: 100%; }
+a[data-v-303bbf52][data-v-639bc19b][data-v-5e85f938]::after{
+    height: 0px !important;
+}
+a[data-v-303bbf52][data-v-258e49ac]::after{
+    height: 0px !important;
+}
