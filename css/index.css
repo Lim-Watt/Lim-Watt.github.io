@@ -2667,13 +2667,6 @@ h1.page-title + .tag-cloud-list {
     transition: top 0.3s;
   }
 }
-#aside-content .card-tag-cloud a {
-  display: inline-block;
-  padding: 0 4px;
-}
-#aside-content .card-tag-cloud a:hover {
-  color: #49b1f5 !important;
-}
 #aside-content .aside-list > span {
   display: block;
   margin-bottom: 10px;
