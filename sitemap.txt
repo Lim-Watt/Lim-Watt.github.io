@@ -1,9 +1,9 @@
+http://example.com/link/index.html
 http://example.com/categories/index.html
 http://example.com/tags/index.html
 http://example.com/2023/11/17/%E6%BB%91%E6%B0%B4%E9%98%BB%E5%A1%9E%E5%99%A8/
 http://example.com/2023/11/16/%E3%80%90Zip-line%E3%80%91/
 http://example.com/comment/index.html
-http://example.com/link/index.html
 http://example.com/resources/index-1.html
 http://example.com/resources/index.html
 http://example.com/about/index.html
