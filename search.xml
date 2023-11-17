@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>滑水阻塞器</title>
+      <link href="/2023/11/17/%E6%BB%91%E6%B0%B4%E9%98%BB%E5%A1%9E%E5%99%A8/"/>
+      <url>/2023/11/17/%E6%BB%91%E6%B0%B4%E9%98%BB%E5%A1%9E%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="滑水阻塞器"><a href="#滑水阻塞器" class="headerlink" title="滑水阻塞器"></a>滑水阻塞器</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>你有长时间<strong>浏览网页</strong>，而<strong>没有打下一行代码</strong>吗？<br>你会沉迷于<strong>刷刷视频</strong>，而<strong>忘记你的luogu</strong>吗？<br>你常常<strong>打小游戏</strong>，而<strong>忘记你未完的比赛</strong>吗？<br>你是否在<strong>滑水</strong>后，后悔万分吗？</p><p style = "font-size: 40px"> 你需要一个滑水阻塞器！</p><span id="more"></span><p>在此之前，你要做好杜绝滑水的决心，它只有提醒和一定的恶心效果，一切习惯的改变依靠自觉。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>你首先看看你有没有 Tempermonkey，如果没有，你就不必继续阅读。因为如果你连这个都没有，你之前无数个日夜的滑水，都是无效的。</p><p>如果你已经有了 Tempermonkey，那么请按照以下步骤：</p><ol><li>复制以下代码</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// ==UserScript==</span></span><br><span class="line"><span class="comment">// @name         sb</span></span><br><span class="line"><span class="comment">// @namespace    sb</span></span><br><span class="line"><span class="comment">// @version      0.1</span></span><br><span class="line"><span class="comment">// @description  try to sb over the world!</span></span><br><span class="line"><span class="comment">// @match        *://*/*</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?www\.luogu\.com\.cn(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?codeforces\.com(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?atcoder\.jp(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?static\.addtoany\.com(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?vjudge\.net(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?widget\.weibo\.com(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?oiwiki\.org(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?oi-wiki\.org(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?giscus\.app(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?github\.com(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?csacademy\.com(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @exclude      /^[^:/#?]*:\/\/([^#?/]*\.)?lim-watt\.github\.io(:[0-9]&#123;1,5&#125;)?\/.*$/</span></span><br><span class="line"><span class="comment">// @author       sb</span></span><br><span class="line"><span class="comment">// @grant        none</span></span><br><span class="line"><span class="comment">// ==/UserScript==</span></span><br><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="string">&#x27;use strict&#x27;</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="title function_">sleep</span> = (<span class="params">delay</span>) =&gt; <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve</span>) =&gt;</span> <span class="built_in">setTimeout</span>(resolve, delay))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">repeatGreetingsLoop</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">while</span> (<span class="number">1</span>)&#123;</span><br><span class="line">            <span class="title function_">alert</span>(<span class="string">&#x27;sb不要划水&#x27;</span>);</span><br><span class="line">            <span class="keyword">await</span> <span class="title function_">sleep</span>(<span class="number">5000</span>)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">repeatGreetingsLoop</span>();</span><br><span class="line">    <span class="comment">// Your code here...</span></span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure><ol start="2"><li>点击右上角的拼图图标，然后点击油猴图标，在弹出的窗口中找到“管理面板”，打开。之后点“已安装脚本”旁边的加号，将所有代码粘贴到编辑器中（要将原本的所有东西删除）。<del>想必你也是轻车熟路了。</del></li><li>ctrl+s 保存。</li></ol><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>它会每隔5秒弹出一次“sb不要划水”。但作者将 luogu、codeforces、atcoder、oiwiki、github 等一些学术相关网站 以及 我的博客 排除在外，所以你不会在刷题时被它烦到。</p><p>你当然可以自定义。点击油猴图标，按如图方式即可排除掉你正在使用的网页。还是那句，一切习惯的改变依靠自觉。</p><p><img src="/2023/11/17/%E6%BB%91%E6%B0%B4%E9%98%BB%E5%A1%9E%E5%99%A8/%E6%BB%91%E6%B0%B4%E9%98%BB%E5%A1%9E%E5%99%A81.png" alt="排除操作"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> html-css-js </tag>
+            
+            <tag> 插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Zip-line】</title>
       <link href="/2023/11/16/%E3%80%90Zip-line%E3%80%91/"/>
       <url>/2023/11/16/%E3%80%90Zip-line%E3%80%91/</url>
@@ -21,6 +42,8 @@
         <tags>
             
             <tag> CF题解 </tag>
+            
+            <tag> c++ </tag>
             
         </tags>
       
