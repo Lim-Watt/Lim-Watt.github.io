@@ -1,6 +1,6 @@
 .tags {
 	color: white;
-    background: #7f7fd5;
+    background: #8ab1ff;
     border: 0px !important;
     box-shadow:1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
@@ -10,7 +10,7 @@
     margin-right: 10px;
     margin-left: 8px;
 	font-size: 20px;
-	transition: all 1s;
+	transition: all .5s;
 }
 .tags:hover {
 	color : white;
@@ -21,7 +21,7 @@
 }
 .tagsmall-0 {
 	color: white;
-    background: #7f7fd5;
+    background: #8ab1ff;
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
@@ -35,8 +35,8 @@
 }
 .tagsmall-0:hover {
 	font-size: 15px;
-	color: white;
-	background: #7fd5a1;
+	color: rgb(0, 0, 0);
+	background: #c5ffdc;
 }
 
 .categories_w {
@@ -48,10 +48,11 @@
 	color: white;
 	background: #ffcef4;
 	border-style: solid;
-    border-width: 10px;
-	border-color:rgb(183, 97, 5) rgba(183, 97, 5, 0) rgba(183, 97, 5, 0) rgb(183, 97, 5);
+    border-width: 20px;
+	border-width: 25px 0px 2px 35px;
+	border-color:rgb(89, 48, 5) #ffcef4 #ffffff rgb(183, 97, 5);
 	font-size: 40px;
-	height: 100px;
+	height: 110px;
 }
 
 .categories_w:hover {
