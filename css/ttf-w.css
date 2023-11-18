@@ -1,0 +1,9 @@
+@font-face{
+  font-family: 'Code' ;  /* 自定义字体名称 */
+  src: url('ttf/Courier Prime Code.ttf'); /* 引入字体文件的路径 */
+}
+
+@font-face{
+  font-family: 'flowfunt' ;  /* 自定义字体名称 */
+  src: url('ttf/flow2.ttf'); /* 引入字体文件的路径 */
+}
