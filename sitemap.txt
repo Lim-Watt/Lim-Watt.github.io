@@ -1,3 +1,4 @@
+http://example.com/2023/11/17/%E6%8E%A5%E7%9D%80%E5%A5%8F%E4%B9%90/
 http://example.com/2023/11/17/%E6%BB%91%E6%B0%B4%E9%98%BB%E5%A1%9E%E5%99%A8/
 http://example.com/2023/11/16/%E3%80%90Zip-line%E3%80%91/
 http://example.com/link/index.html
@@ -10,6 +11,7 @@ http://example.com/about/index.html
 http://example.com/
 http://example.com/tags/CF%E9%A2%98%E8%A7%A3/
 http://example.com/tags/c/
+http://example.com/tags/%E9%9F%B3%E4%B9%90/
 http://example.com/tags/html-css-js/
 http://example.com/tags/%E6%8F%92%E4%BB%B6/
 http://example.com/categories/%E9%A2%98%E8%A7%A3/

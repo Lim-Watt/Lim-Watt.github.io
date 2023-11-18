@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-18T01:22:49.565Z</updated>
+  <updated>2023-11-18T03:49:59.432Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>接着奏乐</title>
+    <link href="http://example.com/2023/11/17/%E6%8E%A5%E7%9D%80%E5%A5%8F%E4%B9%90/"/>
+    <id>http://example.com/2023/11/17/%E6%8E%A5%E7%9D%80%E5%A5%8F%E4%B9%90/</id>
+    <published>2023-11-17T09:59:11.000Z</published>
+    <updated>2023-11-18T03:49:59.432Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>“工作单调且乏味……”<br>“你说得对，但是接着奏乐！”</p></blockquote><h1 id="一个键盘钢琴"><a href="#一个键盘钢琴" class="headerlink" title="一个键盘钢琴"></a>一个键盘钢琴</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>请到我的 <a href="https://github.com/Lim-Watt/keyboard-piano">GitHub项目</a> 上下载。</p><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><p>双击 <code>piano_open.bat</code> 打开，采用后台运行和重复运行检测技术。</p><h2 id="关闭"><a href="#关闭" class="headerlink" title="关闭"></a>关闭</h2><p>双击 <code>piano_kill.bat</code> 关闭，避免在任务管理器中翻找。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="默认键位"><a href="#默认键位" class="headerlink" title="默认键位"></a>默认键位</h3><div class="table-container"><table><thead><tr><th>音高</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>低低</td><td>no</td><td>no</td><td>no</td><td>no</td><td>/</td><td>.</td><td>,</td></tr><tr><td>低</td><td>z</td><td>x</td><td>c</td><td>v</td><td>b</td><td>n</td><td>m</td></tr><tr><td>中</td><td>a</td><td>s</td><td>d</td><td>f</td><td>g</td><td>h</td><td>j</td></tr><tr><td>高</td><td>6</td><td>7</td><td>8</td><td>9</td><td>0</td><td>-</td><td>=</td></tr><tr><td>高高</td><td>u</td><td>i</td><td>o</td><td>p</td><td>[</td><td>]</td><td>\</td></tr></tbody></table></div><h3 id="演奏"><a href="#演奏" class="headerlink" title="演奏"></a>演奏</h3><h4 id="钢琴"><a href="#钢琴" class="headerlink" title="钢琴"></a>钢琴</h4><ol><li>在程序启动后，短按键盘一次发音一次，长按键盘每秒发音一次。</li><li>默认情况下，按默认键位以外的字母和数字键，随机发音。</li><li>支持和弦。即，可以同时按下多个键。</li></ol><h4 id="小提琴"><a href="#小提琴" class="headerlink" title="小提琴"></a>小提琴</h4><ol><li>在程序启动后，按键盘发音。长按键盘持续发音。</li><li>默认情况下，按默认键位以外的字母和数字键，随机发音。</li><li>不支持和弦。即，在未松开一个键时按下另一个键，立刻结束原先发音，开始新的发音。</li></ol><h2 id="核心程序的技术"><a href="#核心程序的技术" class="headerlink" title="核心程序的技术"></a>核心程序的技术</h2><h3 id="1-midi音乐"><a href="#1-midi音乐" class="headerlink" title="1. midi音乐"></a>1. midi音乐</h3><h3 id="2-键盘监控"><a href="#2-键盘监控" class="headerlink" title="2. 键盘监控"></a>2. 键盘监控</h3><h3 id="3-Sleep减速"><a href="#3-Sleep减速" class="headerlink" title="3. Sleep减速"></a>3. Sleep减速</h3><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><h3 id="1-流畅优美"><a href="#1-流畅优美" class="headerlink" title="1. 流畅优美"></a>1. <em>流畅优美</em></h3><p>使用midi音乐，极致自然。</p><h3 id="2-同步高效"><a href="#2-同步高效" class="headerlink" title="2. 同步高效"></a>2. <em>同步高效</em></h3><p>通过键盘监控而不是控制台输入，在工作时享受奏乐。</p><h3 id="3-无痕便捷"><a href="#3-无痕便捷" class="headerlink" title="3. 无痕便捷"></a>3. <em>无痕便捷</em></h3><p>后台运行、键盘监控、Sleep减速三大技术加持，做到表面没有，任务管理器中不比你其他东西显眼。</p><p>点击放大，找一找</p><p><img alt="找一找" src="kp1.png" style="height: 200px"></p><p>看看</p><p><img alt="找一找" src="kp2.png" style="height: 200px"></p><h3 id="4-程序开源"><a href="#4-程序开源" class="headerlink" title="4. 程序开源"></a>4. <em>程序开源</em></h3><p><code>c++</code> 编程，易读易改，码风优良。</p><h2 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h2><h3 id="1-兼容性"><a href="#1-兼容性" class="headerlink" title="1. 兼容性"></a>1. 兼容性</h3><p>目前仅在 windows10 64位 上使用过。其他不清楚。如果你的系统也可以，我觉得这件事情泰酷辣。</p><h3 id="2-更加无痕"><a href="#2-更加无痕" class="headerlink" title="2. 更加无痕"></a>2. 更加无痕</h3><ul><li>将程序名改为 <code>Windows服务.exe</code> 之类，注意不要真的和某些进程重名，然后同步修改两个 <code>bat</code> 文件。（还可以改图标等等）。</li><li>为两个 <code>bat</code> 程序设置快捷键。</li></ul><h3 id="3-自定义"><a href="#3-自定义" class="headerlink" title="3. 自定义"></a>3. 自定义</h3><ul><li>如果无法编译，是没有导入 midi库文件。这里推荐一个稳定的方式：在编译命令中加入 <code>-L. -lwinmm</code> 。</li><li>更改键位应在 <code>void begin();</code> 函数里。</li><li>更改音调时，建议查看专门的midi介绍。</li><li>不建议去尝试钢琴以外的乐器，因为那些一般需要额外的结束符。我补上了一个小提琴的简单实现作为参考。</li></ul><blockquote><p>注：某些乐器一个发音会自动停止（如钢琴），某些不会（如小提琴）。</p><p>在单个进程中，小提琴暂不支持和弦，但可以尝试键位左右分区_、_多声道等实现和弦。暂不实现。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“工作单调且乏味……”&lt;br&gt;“你说得对，但是接着奏乐！”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;一个键盘钢琴&quot;&gt;&lt;a href=&quot;#一个键盘钢琴&quot; class=&quot;headerlink&quot; title=&quot;一个键盘钢琴&quot;&gt;&lt;/a&gt;一个键盘</summary>
+      
+    
+    
+    
+    <category term="项目" scheme="http://example.com/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="c++" scheme="http://example.com/tags/c/"/>
+    
+    <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
   
   <entry>
     <title>滑水阻塞器</title>
