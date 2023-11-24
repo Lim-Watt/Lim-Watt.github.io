@@ -10,12 +10,12 @@ http://example.com/resources/index-1.html
 http://example.com/resources/index.html
 http://example.com/about/index.html
 http://example.com/
-http://example.com/tags/%E6%B8%B8%E8%AE%B0/
 http://example.com/tags/CF%E9%A2%98%E8%A7%A3/
 http://example.com/tags/C/
+http://example.com/tags/%E6%B8%B8%E8%AE%B0/
 http://example.com/tags/%E9%9F%B3%E4%B9%90/
 http://example.com/tags/html-css-js/
 http://example.com/tags/%E6%8F%92%E4%BB%B6/
-http://example.com/categories/%E7%BB%8F%E5%8E%86/
 http://example.com/categories/%E9%A2%98%E8%A7%A3/
+http://example.com/categories/%E7%BB%8F%E5%8E%86/
 http://example.com/categories/%E9%A1%B9%E7%9B%AE/
