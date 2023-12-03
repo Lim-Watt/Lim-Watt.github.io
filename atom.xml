@@ -6,7 +6,7 @@
   <link href="https://lim-watt.github.io/atom.xml" rel="self"/>
   
   <link href="https://lim-watt.github.io/"/>
-  <updated>2023-11-18T06:21:16.853Z</updated>
+  <updated>2023-12-02T10:04:10.595Z</updated>
   <id>https://lim-watt.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于多项式</title>
+    <link href="https://lim-watt.github.io/2023/11/17/%E5%85%B3%E4%BA%8E%E5%A4%9A%E9%A1%B9%E5%BC%8F/"/>
+    <id>https://lim-watt.github.io/2023/11/17/%E5%85%B3%E4%BA%8E%E5%A4%9A%E9%A1%B9%E5%BC%8F/</id>
+    <published>2023-11-17T09:59:11.000Z</published>
+    <updated>2023-12-02T10:04:10.595Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>希望别忘的太快……</p></blockquote><h2 id="一-从多项式说起"><a href="#一-从多项式说起" class="headerlink" title="一 从多项式说起"></a>一 从多项式说起</h2><p><del>在某天，在某个地方，在某个人突然抬起头的时候，他发出尖锐爆鸣：“什么是多项式？”</del></p><span id="more"></span><p>我们称 $\sum_{i=0}^n a_i x^i$ 为 $n$ 次多项式，其中 $a_i$ 表示多项式系数，$x$ 表示未知数。</p><p>可以记 $f(x)=\sum_{i=0}^n a_i x^i$，这很函数。实际上，我们的确可以很函数的去考虑它。而一般在计算时，我们会更看重它系数的变化。</p><h2 id="二-多项式计算"><a href="#二-多项式计算" class="headerlink" title="二 多项式计算"></a>二 多项式计算</h2><h3 id="0-你要先知道"><a href="#0-你要先知道" class="headerlink" title="0 你要先知道"></a>0 你要先知道</h3><p>实际上求和符号 $\sum$ 的运算优先级相当的低，所以 $\sum A\sum B = \sum (A \sum B)$，其中 $A, B$ 表示一个普通的式子。$\prod$ 也是如此。</p><h3 id="1-加减法"><a href="#1-加减法" class="headerlink" title="1 加减法"></a>1 加减法</h3><blockquote><p>已知 $f(x)=\sum_{i=0}^n a_i x^i,g(x)=\sum_{i=0}^m b_i x^i$，求 $h(x)$，满足 $h(x) = f(x)\pm g(x)$。</p></blockquote><p>令 $n&gt;m$。</p><script type="math/tex; mode=display">\begin{aligned}h(x) &= f(x) \pm g(x) \\&= \left(\sum_{i=0}^{n} a_i x^i\right) \pm \left(\sum_{i=0}^{m} b_i x^i\right) \\&= \sum_{i=0}^{n} {a_i x^i \pm b_i x^i} \\&= \sum_{i=0}^{n} {a_i x^i \pm b_i x^i} \\&= \sum_{i=0}^{n} {(a_i \pm b_i) x^i} \\\end{aligned}</script><p>时间复杂度 $O(n)$。</p><h3 id="2-乘法（卷积）"><a href="#2-乘法（卷积）" class="headerlink" title="2 乘法（卷积）"></a>2 乘法（卷积）</h3><blockquote><p>已知 $f(x)=\sum_{i=0}^n a_i x^i,g(x)=\sum_{i=0}^m b_i x^i$，求 $h(x)$，满足 $h(x) = f(x)g(x)$。</p></blockquote><script type="math/tex; mode=display">\begin{aligned}h(x) &= f(x)g(x) \\&= \left(\sum_{i=0}^{n} a_i x^i\right)\left(\sum_{i=0}^{m} b_i x^i\right) \\&= \sum_{i=0}^{n} a_i x^i\sum_{j=0}^{m} b_j x^j \\&= \sum_{i=0}^{n}\sum_{j=0}^{m} a_i x^i b_j x^j \\&= \sum_{i=0}^{n}\sum_{j=0}^{m} a_i b_j x^{i+j} \\&= \sum_{k=0}^{n+m}\sum_{i=0}^{k}a_i b_{k-i} x^k\end{aligned}</script><p>时间复杂度 $O(nm)$。</p><h3 id="3-NTT-快速数论变换"><a href="#3-NTT-快速数论变换" class="headerlink" title="3 NTT(快速数论变换)"></a>3 NTT(快速数论变换)</h3><p>但卷积显然太慢了，所以我们需要优化。</p><p>如果我们仅计算 $x_0$ 处的取值，有 $h(x_0) = f(x_0)g(x_0)$，点值计算是 $O(1)$ 的。而我们知道，要确定一个 $n$ 次多项式，只需要知道 $n + 1$ 个点。如果我们先计算 $f(x)$ 和 $g(x)$ 分别 $n+m+1$ 个点的值，分别相乘得到 $h(x)$ 的点值，再转换回去……</p><p>停一下，怎么转换？</p><p>如果，它可以分治？可以大约 $O(n\log n)$?</p><p>考虑一个 $n$ 次多项式 $f(x)$。为了在之后方便分治，令 $n + 1$ 是 $2$ 的整数幂。如果项数不够，系数可以用 $0$ 补上。令 $m=\frac{n-1}{2}$。</p><p>考虑把 $f(x)$ 分成两半，奇偶项分开。</p><script type="math/tex; mode=display">\begin{aligned}f(x) &= \sum_{i=0}^n a_i x^i \\&= \sum_{i=0}^m{a_{2i}x^{2i}+a_{2i+1}x^{2i+1}} \\&= \left(\sum_{i=0}^m{a_{2i}x^{2i}}\right)+\left(\sum_{i=0}^m{a_{2i+1}x^{2i+1}}\right)\\&= \left(\sum_{i=0}^m{a_{2i}\left(x^2\right)^{i}}\right)+x\left(\sum_{i=0}^m{a_{2i+1}\left(x^2\right)^{i}}\right)\end{aligned}</script><p>令</p><script type="math/tex; mode=display">\begin{aligned}f_0(x)&=\sum_{i=0}^m{a_{2i}x^i}\\f_1(x)&=\sum_{i=0}^m{a_{2i+1}x^i}\end{aligned}</script><p>那么</p><script type="math/tex; mode=display">f(x)=f_0(x^2)+xf_1(x^2)</script><p>如果我们已经求出了 $f_0(x)$ 和 $f_1(x)$ 的点值，由于上式是 $O(1)$ 的，那么就可以 $o(n)$ 的算出 $n$ 个点的值。</p><p>我们可以递归求解，类似于快速幂。但我们显然不可以把 $f_0(x)$ 和 $f_1(x)$ 各递归一遍。这让我想起 $CCF$ 出品的 $O(n)$ “快速幂”。</p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;希望别忘的太快……&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一-从多项式说起&quot;&gt;&lt;a href=&quot;#一-从多项式说起&quot; class=&quot;headerlink&quot; title=&quot;一 从多项式说起&quot;&gt;&lt;/a&gt;一 从多项式说起&lt;/h2&gt;&lt;p&gt;&lt;del&gt;在某天，在某个地方，在某个人突然抬起头的时候，他发出尖锐爆鸣：“什么是多项式？”&lt;/del&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://lim-watt.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="c++" scheme="https://lim-watt.github.io/tags/c/"/>
+    
+    <category term="多项式" scheme="https://lim-watt.github.io/tags/%E5%A4%9A%E9%A1%B9%E5%BC%8F/"/>
+    
+    <category term="数学" scheme="https://lim-watt.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>接着奏乐</title>
     <link href="https://lim-watt.github.io/2023/11/17/%E6%8E%A5%E7%9D%80%E5%A5%8F%E4%B9%90/"/>
     <id>https://lim-watt.github.io/2023/11/17/%E6%8E%A5%E7%9D%80%E5%A5%8F%E4%B9%90/</id>
     <published>2023-11-17T09:59:11.000Z</published>
-    <updated>2023-11-18T06:21:16.853Z</updated>
+    <updated>2023-11-25T03:10:57.359Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>“工作单调且乏味……”<br>“你说得对，但是接着奏乐！”</p></blockquote><h1 id="一个键盘钢琴"><a href="#一个键盘钢琴" class="headerlink" title="一个键盘钢琴"></a>一个键盘钢琴</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>请到我的 <a href="https://github.com/Lim-Watt/keyboard-piano">GitHub项目</a> 上下载。</p><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><p>双击 <code>piano_open.bat</code> 打开，采用后台运行和重复运行检测技术。</p><h2 id="关闭"><a href="#关闭" class="headerlink" title="关闭"></a>关闭</h2><p>双击 <code>piano_kill.bat</code> 关闭，避免在任务管理器中翻找。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="默认键位"><a href="#默认键位" class="headerlink" title="默认键位"></a>默认键位</h3><div class="table-container"><table><thead><tr><th>音高</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>低低</td><td>no</td><td>no</td><td>no</td><td>no</td><td>/</td><td>.</td><td>,</td></tr><tr><td>低</td><td>z</td><td>x</td><td>c</td><td>v</td><td>b</td><td>n</td><td>m</td></tr><tr><td>中</td><td>a</td><td>s</td><td>d</td><td>f</td><td>g</td><td>h</td><td>j</td></tr><tr><td>高</td><td>6</td><td>7</td><td>8</td><td>9</td><td>0</td><td>-</td><td>=</td></tr><tr><td>高高</td><td>u</td><td>i</td><td>o</td><td>p</td><td>[</td><td>]</td><td>\</td></tr></tbody></table></div><h3 id="演奏"><a href="#演奏" class="headerlink" title="演奏"></a>演奏</h3><h4 id="钢琴"><a href="#钢琴" class="headerlink" title="钢琴"></a>钢琴</h4><ol><li>在程序启动后，短按键盘一次发音一次，长按键盘每秒发音一次。</li><li>默认情况下，按默认键位以外的字母和数字键，随机发音。</li><li>支持和弦。即，可以同时按下多个键。</li></ol><h4 id="小提琴"><a href="#小提琴" class="headerlink" title="小提琴"></a>小提琴</h4><ol><li>在程序启动后，按键盘发音。长按键盘持续发音。</li><li>默认情况下，按默认键位以外的字母和数字键，随机发音。</li><li>不支持和弦。即，在未松开一个键时按下另一个键，立刻结束原先发音，开始新的发音。</li></ol><h2 id="核心程序的技术"><a href="#核心程序的技术" class="headerlink" title="核心程序的技术"></a>核心程序的技术</h2><h3 id="1-midi音乐"><a href="#1-midi音乐" class="headerlink" title="1. midi音乐"></a>1. midi音乐</h3><h3 id="2-键盘监控"><a href="#2-键盘监控" class="headerlink" title="2. 键盘监控"></a>2. 键盘监控</h3><h3 id="3-Sleep减速"><a href="#3-Sleep减速" class="headerlink" title="3. Sleep减速"></a>3. Sleep减速</h3><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><h3 id="1-流畅优美"><a href="#1-流畅优美" class="headerlink" title="1. 流畅优美"></a>1. <em>流畅优美</em></h3><p>使用midi音乐，极致自然。</p><h3 id="2-同步高效"><a href="#2-同步高效" class="headerlink" title="2. 同步高效"></a>2. <em>同步高效</em></h3><p>通过键盘监控而不是控制台输入，在工作时享受奏乐。</p><h3 id="3-无痕便捷"><a href="#3-无痕便捷" class="headerlink" title="3. 无痕便捷"></a>3. <em>无痕便捷</em></h3><p>后台运行、键盘监控、Sleep减速三大技术加持，做到表面没有，任务管理器中不比你其他东西显眼。</p><p>点击放大，找一找</p><p><img alt="找一找" src="kp1.png" style="height: 200px"></p><p>看看</p><p><img alt="找一找" src="kp2.png" style="height: 200px"></p><h3 id="4-程序开源"><a href="#4-程序开源" class="headerlink" title="4. 程序开源"></a>4. <em>程序开源</em></h3><p><code>c++</code> 编程，易读易改，码风优良。</p><h2 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h2><h3 id="1-兼容性"><a href="#1-兼容性" class="headerlink" title="1. 兼容性"></a>1. 兼容性</h3><p>目前仅在 windows10 64位 上使用过。其他不清楚。如果你的系统也可以，我觉得这件事情泰酷辣。</p><h3 id="2-更加无痕"><a href="#2-更加无痕" class="headerlink" title="2. 更加无痕"></a>2. 更加无痕</h3><ul><li>将程序名改为 <code>Windows服务.exe</code> 之类，注意不要真的和某些进程重名，然后同步修改两个 <code>bat</code> 文件。（还可以改图标等等）。</li><li>为两个 <code>bat</code> 程序设置快捷键。</li></ul><h3 id="3-自定义"><a href="#3-自定义" class="headerlink" title="3. 自定义"></a>3. 自定义</h3><ul><li>如果无法编译，是没有导入 midi库文件。这里推荐一个稳定的方式：在编译命令中加入 <code>-L. -lwinmm</code> 。</li><li>更改键位应在 <code>void begin();</code> 函数里。</li><li>更改音调时，建议查看专门的midi介绍。</li><li>不建议去尝试钢琴以外的乐器，因为那些一般需要额外的结束符。我补上了一个小提琴的简单实现作为参考。</li></ul><blockquote><p>注：某些乐器一个发音会自动停止（如钢琴），某些不会（如小提琴）。</p><p>在单个进程中，小提琴暂不支持和弦，但可以尝试键位左右分区_、_多声道等实现和弦。暂不实现。</p></blockquote>]]></content>
     
