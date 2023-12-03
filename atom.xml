@@ -98,30 +98,6 @@
   </entry>
   
   <entry>
-    <title>NOIP23离线赛个人总结</title>
-    <link href="https://lim-watt.github.io/2023/11/16/NOIP23%E7%A6%BB%E7%BA%BF%E8%B5%9B%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/"/>
-    <id>https://lim-watt.github.io/2023/11/16/NOIP23%E7%A6%BB%E7%BA%BF%E8%B5%9B%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/</id>
-    <published>2023-11-16T13:14:58.000Z</published>
-    <updated>2023-11-19T09:25:19.451Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="NOIP23离线赛个人总结"><a href="#NOIP23离线赛个人总结" class="headerlink" title="NOIP23离线赛个人总结"></a>NOIP23离线赛个人总结</h1><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>csp-s 提高组挂分，然后进行了 $1$ 个月停课集训。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><ol><li>$5$ 分钟切 $T1$。</li><li>简单读完剩下三道题的题目。预估 $T2$ 可以拿下 $80$, $T3$ 可以拿到 $20$, $T4$ 应该可以拿到 $20$ 以上。觉得 $T3$ 和 $T4$ 不大对。</li><li>开始做 $T2$。发现思路不对，决定分段做，先写了第一部分和第二部分的 $40$。</li><li>在 $T2$ 花费较长时间后无果，跳过，先写 $T3$ 和 $T4$ 暴力。</li><li>写完暴力后再次考虑 $T2$，无果，在权衡三道题的可做性后，看向 $T4$，意外发现可以 $O(n^2)$ 得一定分。在考试最后十分钟赶完一个 $DP$，意外发现实际可以通过更多的数据点。</li><li>考试将结束，匆忙检查一番。此时老师说还有 $30$ 分钟，他上次时间说错了……</li><li>再次审视 $T4$，其实在写 $O(n^2)$ 时就已经发现有很大的优化空间，大概用数据结构优化到 $O(n\log{n})$，再将枚举 $n$ 换为枚举 $m$.</li><li>果断冲击 $T4$。由于心慌，本应该用线段树优化，结果先写了一个树状数组。写完线段树后突然思路断了，打算出去上厕所，走三步后找回思路，立刻跑回来。</li><li>由于时间只有 $3$ 分钟，自认即使只把 $O(nlog{n})$ 写完也难以调出所有问题，在万分痛苦中放弃。修改文件操作，建文件夹，倒数 $10$ 秒。</li><li>细说写 $T4$ 的身心状态。略微胸闷，可能有呼吸不畅。手部在低温发僵和脑袋发抽的情况下有明显抖动，温度至少比我脸上低 $5$ 摄氏度。脑袋只有正在写的代码和将写的思路，如不是出去一趟，可能直接忘记检查 $T1$ 文件操作。在倒数 $10$ 秒时，咒骂某机构，但还理智的没在代码里加注释。</li><li>幸好使用了 $namespace$，避免了写 $T2,T4$ 对其他代码的影响。但 $T2$ 第二部分有两处错误样例没纠出来，挂掉 $20$，得分 $184$。</li></ol><h2 id="出现的问题及原因"><a href="#出现的问题及原因" class="headerlink" title="出现的问题及原因"></a>出现的问题及原因</h2><ol><li>考试时没有对 $T4$ 经行正确评价，导致大量可做分没动。原因是对 $T4$ 这个位置的刻板看法、对题目的洞察力不足、应试心态不稳定和时间分配不合理。</li><li>在 $T2$ 上花费大量时间。其实中途考虑并排除了多个思路，但最后还是不对。此题应当写纯暴力过第三部分，当时不知道为什么没用。因该多做些像 $T2,T3$ 这种带思维的题，容易拉分。</li><li>检查明显不到位，出现了 $T2$ 挂 $20$、$T1$ 险些文件不对等严重问题。</li><li>以上 $3$ 点问题均有时间分配不合理的原因，但同样以上 $3$ 点问题均导致了时间分配不合理。老师的通知不对有一定影响，但主要是在面对考场万变的形式中，对策略的动态调整能力不足。</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;NOIP23离线赛个人总结&quot;&gt;&lt;a href=&quot;#NOIP23离线赛个人总结&quot; class=&quot;headerlink&quot; title=&quot;NOIP23离线赛个人总结&quot;&gt;&lt;/a&gt;NOIP23离线赛个人总结&lt;/h1&gt;&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; cla</summary>
-      
-    
-    
-    
-    <category term="经历" scheme="https://lim-watt.github.io/categories/%E7%BB%8F%E5%8E%86/"/>
-    
-    
-    <category term="游记" scheme="https://lim-watt.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【Zip-line】</title>
     <link href="https://lim-watt.github.io/2023/11/16/%E3%80%90Zip-line%E3%80%91/"/>
     <id>https://lim-watt.github.io/2023/11/16/%E3%80%90Zip-line%E3%80%91/</id>
@@ -144,6 +120,30 @@
     <category term="CF题解" scheme="https://lim-watt.github.io/tags/CF%E9%A2%98%E8%A7%A3/"/>
     
     <category term="C++" scheme="https://lim-watt.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NOIP23离线赛个人总结</title>
+    <link href="https://lim-watt.github.io/2023/11/16/NOIP23%E7%A6%BB%E7%BA%BF%E8%B5%9B%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/"/>
+    <id>https://lim-watt.github.io/2023/11/16/NOIP23%E7%A6%BB%E7%BA%BF%E8%B5%9B%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/</id>
+    <published>2023-11-16T13:14:58.000Z</published>
+    <updated>2023-11-19T09:25:19.451Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="NOIP23离线赛个人总结"><a href="#NOIP23离线赛个人总结" class="headerlink" title="NOIP23离线赛个人总结"></a>NOIP23离线赛个人总结</h1><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>csp-s 提高组挂分，然后进行了 $1$ 个月停课集训。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><ol><li>$5$ 分钟切 $T1$。</li><li>简单读完剩下三道题的题目。预估 $T2$ 可以拿下 $80$, $T3$ 可以拿到 $20$, $T4$ 应该可以拿到 $20$ 以上。觉得 $T3$ 和 $T4$ 不大对。</li><li>开始做 $T2$。发现思路不对，决定分段做，先写了第一部分和第二部分的 $40$。</li><li>在 $T2$ 花费较长时间后无果，跳过，先写 $T3$ 和 $T4$ 暴力。</li><li>写完暴力后再次考虑 $T2$，无果，在权衡三道题的可做性后，看向 $T4$，意外发现可以 $O(n^2)$ 得一定分。在考试最后十分钟赶完一个 $DP$，意外发现实际可以通过更多的数据点。</li><li>考试将结束，匆忙检查一番。此时老师说还有 $30$ 分钟，他上次时间说错了……</li><li>再次审视 $T4$，其实在写 $O(n^2)$ 时就已经发现有很大的优化空间，大概用数据结构优化到 $O(n\log{n})$，再将枚举 $n$ 换为枚举 $m$.</li><li>果断冲击 $T4$。由于心慌，本应该用线段树优化，结果先写了一个树状数组。写完线段树后突然思路断了，打算出去上厕所，走三步后找回思路，立刻跑回来。</li><li>由于时间只有 $3$ 分钟，自认即使只把 $O(nlog{n})$ 写完也难以调出所有问题，在万分痛苦中放弃。修改文件操作，建文件夹，倒数 $10$ 秒。</li><li>细说写 $T4$ 的身心状态。略微胸闷，可能有呼吸不畅。手部在低温发僵和脑袋发抽的情况下有明显抖动，温度至少比我脸上低 $5$ 摄氏度。脑袋只有正在写的代码和将写的思路，如不是出去一趟，可能直接忘记检查 $T1$ 文件操作。在倒数 $10$ 秒时，咒骂某机构，但还理智的没在代码里加注释。</li><li>幸好使用了 $namespace$，避免了写 $T2,T4$ 对其他代码的影响。但 $T2$ 第二部分有两处错误样例没纠出来，挂掉 $20$，得分 $184$。</li></ol><h2 id="出现的问题及原因"><a href="#出现的问题及原因" class="headerlink" title="出现的问题及原因"></a>出现的问题及原因</h2><ol><li>考试时没有对 $T4$ 经行正确评价，导致大量可做分没动。原因是对 $T4$ 这个位置的刻板看法、对题目的洞察力不足、应试心态不稳定和时间分配不合理。</li><li>在 $T2$ 上花费大量时间。其实中途考虑并排除了多个思路，但最后还是不对。此题应当写纯暴力过第三部分，当时不知道为什么没用。因该多做些像 $T2,T3$ 这种带思维的题，容易拉分。</li><li>检查明显不到位，出现了 $T2$ 挂 $20$、$T1$ 险些文件不对等严重问题。</li><li>以上 $3$ 点问题均有时间分配不合理的原因，但同样以上 $3$ 点问题均导致了时间分配不合理。老师的通知不对有一定影响，但主要是在面对考场万变的形式中，对策略的动态调整能力不足。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;NOIP23离线赛个人总结&quot;&gt;&lt;a href=&quot;#NOIP23离线赛个人总结&quot; class=&quot;headerlink&quot; title=&quot;NOIP23离线赛个人总结&quot;&gt;&lt;/a&gt;NOIP23离线赛个人总结&lt;/h1&gt;&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; cla</summary>
+      
+    
+    
+    
+    <category term="经历" scheme="https://lim-watt.github.io/categories/%E7%BB%8F%E5%8E%86/"/>
+    
+    
+    <category term="游记" scheme="https://lim-watt.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
