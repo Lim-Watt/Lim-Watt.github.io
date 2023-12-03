@@ -44,6 +44,17 @@
     z-index: 20;
 }
 
+.newheadBox2 {
+    position: absolute;
+    top: 4px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: url(/img/head/1.png);
+    background-size: cover;
+    z-index: 20;
+}
+
 /* 防止和上面的菜单冲突 添加一下zindex */
 #nav .site-page:not(.child):after {
     z-index: 23 !important;
@@ -73,5 +84,9 @@
 }
 
 .newheadBox:hover {
+    animation: turn linear 0.5s;
+}
+
+.newheadBox2:hover {
     animation: turn linear 0.5s;
 }
