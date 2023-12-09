@@ -126,6 +126,20 @@
   </url>
   
   <url>
+    <loc>https://lim-watt.github.io/tags/CF%E9%A2%98%E8%A7%A3/</loc>
+    <lastmod>2023-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lim-watt.github.io/tags/C/</loc>
+    <lastmod>2023-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lim-watt.github.io/tags/c/</loc>
     <lastmod>2023-12-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -147,21 +161,7 @@
   </url>
   
   <url>
-    <loc>https://lim-watt.github.io/tags/C/</loc>
-    <lastmod>2023-12-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lim-watt.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2023-12-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lim-watt.github.io/tags/CF%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2023-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -191,6 +191,13 @@
   </url>
   
   <url>
+    <loc>https://lim-watt.github.io/categories/%E9%A2%98%E8%A7%A3/</loc>
+    <lastmod>2023-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lim-watt.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-12-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -199,13 +206,6 @@
   
   <url>
     <loc>https://lim-watt.github.io/categories/%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2023-12-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lim-watt.github.io/categories/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2023-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
