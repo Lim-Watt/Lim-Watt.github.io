@@ -4,7 +4,7 @@
     border: 0px !important;
     box-shadow:1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -16,7 +16,7 @@
 	color : white;
     box-shadow:1px 1px 15px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	font-size: 25px;
 }
 .tags:not(.exlg-dash-options)::after{ height: 0px;}
@@ -27,17 +27,17 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 .tagsmall-0:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -49,17 +49,17 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 .tagsmall-1:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -71,17 +71,17 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 .tagsmall-2:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -93,17 +93,17 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 .tagsmall-3:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -115,17 +115,17 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 .tagsmall-4:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -137,18 +137,18 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 
 .tagsmall-5:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -160,18 +160,18 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 
 .tagsmall-10:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -183,18 +183,18 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 
 .tagsmall-15:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -206,18 +206,18 @@
     border: 0px !important;
     box-shadow: 1px 1px 3px #00000070;
 	border: 2px solid rgba(255, 0, 0, 0);
-    border-radius: 12px;
+    border-radius: 17px;
 	margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	transition: all 1s;
 }
 
 .tagsmall-20:hover {
-	font-size: 15px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #4ab5f8;
 	background: #c5ffdc;
 }
 
@@ -251,19 +251,19 @@ a.categories_w:not(.exlg-dash-options)::after{ height: 0px;}
 }
 
 #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a, #aside-content .card-categories ul.card-category-list > .card-category-list-item a{
-	border-radius: 12px;
+	border-radius: 17px;
 }
 
 #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:not(.exlg-dash-options)::after, #aside-content .card-categories ul.card-category-list > .card-category-list-item a:not(.exlg-dash-options)::after{ height: 0px;}
 
 #aside-content #card-toc .toc-content .toc-link{
-	border-radius: 12px;
+	border-radius: 17px;
 }
 
 #aside-content #card-toc .toc-content .toc-link:not(.exlg-dash-options)::after{ height: 0px;}
 
 #aside-content .card-info #card-info-btn{
-	border-radius: 12px;
+	border-radius: 17px;
 }
 
 #aside-content .card-info #card-info-btn:not(.exlg-dash-options)::after{ height: 0px;}
