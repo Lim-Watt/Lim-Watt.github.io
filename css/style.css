@@ -1,0 +1,27 @@
+.topbar {
+  height: 60px;
+  z-index: 999;
+  margin-left: -10%;
+  padding-left: 10%;
+  background-color: rgba(255,255,255,0.42) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  font-weight: bolder;
+}
+body {
+  opacity: '';
+  color: var(--text-color);
+  font-family: hexo-config-uq('font_family');
+  font-size: $default-fs;
+  font-weight: 500 !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin: 0 auto;
+  box-shadow: 0 0 40px var(--body-shadow-color);
+  height: auto;
+  width: $width-1;
+  line-height: 140%;
+  letter-spacing: 1.3px;
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="msvalidate.01" content="A7B4DB5A7BF5E5C6E52E34BB024D6319" />
+	<meta name="description" content="栉风沐雨，披星戴月。">
+	<meta http-equiv='content-language' content='zh-cn'>
+	<link rel="icon" href="/img/favicon.png">
+	<title>
+		
+			Latex |
+		
+			
+		Something for Noting
+	</title>
+	
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.0.0"></head>
+	<body style="background-image: url(/img/stal.jpg);">
+		<div class="topbar">
+	
+</div> 
+		<h1>
+			<a href="/">Something for Noting</a> |
+			<a href="/archives">Archive</a> | 
+			<!--<a href="/about/">About</a>-->
+		</h1>
+		 
+
+<h2>Latex</h2>
+<p>2022/04/08 15:33:01 </p>
+<blockquote>
+<p>written by <a target="_blank" rel="noopener" href="https://smileyan.cn/">Smileyan</a></p>
+</blockquote>
+<h2 id="python-代码"><a href="#python-代码" class="headerlink" title="python 代码"></a>python 代码</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> js</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">maxSubList</span>(<span class="params">labels</span>):</span><br><span class="line">    index = -<span class="number">1</span></span><br><span class="line">    maxLength = <span class="number">0</span></span><br><span class="line">    countLength = <span class="number">0</span></span><br><span class="line">    <span class="comment"># 循环一次</span></span><br><span class="line">    <span class="keyword">for</span> i, one <span class="keyword">in</span> <span class="built_in">enumerate</span>(labels):</span><br><span class="line">        <span class="keyword">if</span> (one == <span class="number">1</span>):</span><br><span class="line">            countLength += <span class="number">1</span></span><br><span class="line">            <span class="comment"># 如果检测到更大的子序列</span></span><br><span class="line">            <span class="keyword">if</span>(countLength &gt; maxLength):</span><br><span class="line">                maxLength = countLength</span><br><span class="line">                index = i</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 子序列长度结束计数</span></span><br><span class="line">            countLength = <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> maxLength,index</span><br></pre></td></tr></table></figure>
+
+<h2 id="c-代码"><a href="#c-代码" class="headerlink" title="c++ 代码"></a>c++ 代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 注释</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> x,y;</span><br><span class="line">  cin&gt;&gt;x;</span><br><span class="line">  <span class="comment">// 注释</span></span><br><span class="line">  cin&gt;&gt;y;</span><br><span class="line">  cout&lt;&lt;x+y&lt;&lt;endl;cout&lt;&lt;x+y&lt;&lt;endl;cout&lt;&lt;x+y&lt;&lt;endl;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>c 代码</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">using namespace <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">  <span class="type">int</span> x,y;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;x;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;y;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;x+y&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>java 代码</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.smileyan;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> yanshili</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Hello</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">18</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;y; i++) &#123;</span><br><span class="line">            x += i;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>html</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Bootstrap5 实例<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container-fluid p-5 bg-primary text-white text-center&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span>&gt;</span>我的第一个 Bootstrap 页面<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>这是一个响应式页面，重置浏览器大小查看效果!<span class="tag">&lt;/<span class="name">p</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container mt-5&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;row&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-4&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">h3</span>&gt;</span>第一列<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>菜鸟教程<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>学的不仅是技术，更是梦想！！！<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-4&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">h3</span>&gt;</span>第二列<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>菜鸟教程<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>学的不仅是技术，更是梦想！！！<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-4&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">h3</span>&gt;</span>第三列<span class="tag">&lt;/<span class="name">h3</span>&gt;</span>        </span><br><span class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>菜鸟教程<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>学的不仅是技术，更是梦想！！！<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+<p>css</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#rcorners1</span> &#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">25px</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#8AC007</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">20px</span>; </span><br><span class="line">    <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">150px</span>;    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#rcorners2</span> &#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">25px</span>;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#8AC007</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">20px</span>; </span><br><span class="line">    <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">150px</span>;    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.rcorners3</span> &#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">25px</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">url</span>(<span class="string">/images/paper.gif</span>);</span><br><span class="line">    <span class="attribute">background-position</span>: left top;</span><br><span class="line">    <span class="attribute">background-repeat</span>: repeat;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">20px</span>; </span><br><span class="line">    <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">150px</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>javascript</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">displayDate</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;demo&quot;</span>).<span class="property">innerHTML</span>=<span class="title class_">Date</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="scala"><a href="#scala" class="headerlink" title="scala"></a>scala</h2><figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">object</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">main</span></span>(args: <span class="type">Array</span>[<span class="type">String</span>]): <span class="type">Unit</span> = &#123;</span><br><span class="line">    println(<span class="string">&quot;Hello, world!&quot;</span>)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="bash"><a href="#bash" class="headerlink" title="bash"></a>bash</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~</span><br><span class="line">$ npm install hello-world</span><br><span class="line">$ git <span class="built_in">clone</span> wwesf</span><br><span class="line">$ yum -y install </span><br><span class="line">$ make &amp; make install</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="字母"><a href="#字母" class="headerlink" title="字母"></a>字母</h1><table>
+<thead>
+<tr>
+<th align="center">字母</th>
+<th align="center">表达式</th>
+<th align="center">字母</th>
+<th align="center">符号</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">$\theta$</td>
+<td align="center">\theta</td>
+<td align="center">$\upsilon$</td>
+<td align="center">\upsilon</td>
+</tr>
+<tr>
+<td align="center">$\sigma$</td>
+<td align="center">\sigma</td>
+<td align="center">$\lambda$</td>
+<td align="center">\lambda</td>
+</tr>
+<tr>
+<td align="center">$\alpha$</td>
+<td align="center">\alpha</td>
+<td align="center">$\Omega$</td>
+<td align="center">\Omega</td>
+</tr>
+<tr>
+<td align="center">$\beta$</td>
+<td align="center">\beta</td>
+<td align="center">$\Phi$</td>
+<td align="center">\Phi</td>
+</tr>
+<tr>
+<td align="center">$\gamma$</td>
+<td align="center">\gamma</td>
+<td align="center">$\varphi$</td>
+<td align="center">\varphi</td>
+</tr>
+<tr>
+<td align="center">$\phi$</td>
+<td align="center">\phi</td>
+<td align="center">$\Pi$</td>
+<td align="center">\pi</td>
+</tr>
+<tr>
+<td align="center">$\mu$</td>
+<td align="center">\mu</td>
+<td align="center">$\omega$</td>
+<td align="center">\omega</td>
+</tr>
+<tr>
+<td align="center">$\xi$</td>
+<td align="center">\xi</td>
+<td align="center">$\psi$</td>
+<td align="center">\psi</td>
+</tr>
+<tr>
+<td align="center">$\pi$</td>
+<td align="center">\pi</td>
+<td align="center">$\chi$</td>
+<td align="center">\chi</td>
+</tr>
+<tr>
+<td align="center">$\delta$</td>
+<td align="center">\delta</td>
+<td align="center">$\tau$</td>
+<td align="center">\tau</td>
+</tr>
+<tr>
+<td align="center">$\epsilon$</td>
+<td align="center">\epsilon</td>
+<td align="center">$\epsilon$</td>
+<td align="center">\epsilon</td>
+</tr>
+<tr>
+<td align="center">$\zeta$</td>
+<td align="center">\zeta</td>
+<td align="center">$\varepsilon$</td>
+<td align="center">\varepsilon</td>
+</tr>
+<tr>
+<td align="center">$\eta$</td>
+<td align="center">\eta</td>
+<td align="center">$\rho$</td>
+<td align="center">\rho</td>
+</tr>
+<tr>
+<td align="center">$\partial$​</td>
+<td align="center">\partial</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>有一些字母的大写就是大写第一个字符即可。比如 $\Tau$ \Tau 是 $\tau$ \tau 的大写。 </p>
+<p>哥特体：</p>
+<p>比如说字母 S，\mathfrak {S} ：<big><big>$\mathfrak{S}$ </big></big></p>
+<table>
+<thead>
+<tr>
+<th align="center">字体名</th>
+<th align="center">表达式</th>
+<th align="center">例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">手写体</td>
+<td align="center">\mathcal { }</td>
+<td align="center">$\mathcal {A,B,C}$</td>
+</tr>
+<tr>
+<td align="center">哥特体</td>
+<td align="center">\mathfrak { }</td>
+<td align="center">$\mathfrak{A,B,C}$</td>
+</tr>
+<tr>
+<td align="center">正粗体</td>
+<td align="center">\mathbf { }</td>
+<td align="center">$\mathbf{A,B,C}$</td>
+</tr>
+<tr>
+<td align="center">黑板粗体</td>
+<td align="center">\mathbb { }</td>
+<td align="center">$\mathbb{A,B,C}$</td>
+</tr>
+<tr>
+<td align="center">斜体</td>
+<td align="center">\mathif { }</td>
+<td align="center">$\mathit{A,B,C}$</td>
+</tr>
+<tr>
+<td align="center">罗马体</td>
+<td align="center">\mathrm { }</td>
+<td align="center">$\mathrm{A,B,C}$</td>
+</tr>
+</tbody></table>
+<h3 id="运算符号"><a href="#运算符号" class="headerlink" title="运算符号"></a>运算符号</h3><table>
+<thead>
+<tr>
+<th align="center">符号</th>
+<th align="center">表达式</th>
+<th align="center">解释（索引）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">$\times$</td>
+<td align="center">\times</td>
+<td align="center">乘法</td>
+</tr>
+<tr>
+<td align="center">$\div$</td>
+<td align="center">\div</td>
+<td align="center">除法</td>
+</tr>
+<tr>
+<td align="center">$\pm$</td>
+<td align="center">\pm</td>
+<td align="center">正负号（正或负）</td>
+</tr>
+<tr>
+<td align="center">$\forall$</td>
+<td align="center">\forall</td>
+<td align="center">任意，所有</td>
+</tr>
+<tr>
+<td align="center">$\exists$</td>
+<td align="center">\exist , \exists</td>
+<td align="center">存在</td>
+</tr>
+<tr>
+<td align="center">$\not&#x3D;$</td>
+<td align="center">\not&#x3D;</td>
+<td align="center">不等于，不等号</td>
+</tr>
+<tr>
+<td align="center">$\approx$</td>
+<td align="center">\approx</td>
+<td align="center">约等于，约等号</td>
+</tr>
+<tr>
+<td align="center">$\geq$</td>
+<td align="center">\geq，\ge</td>
+<td align="center">大于等于</td>
+</tr>
+<tr>
+<td align="center">$\leq$</td>
+<td align="center">\leq</td>
+<td align="center">小于等于</td>
+</tr>
+<tr>
+<td align="center">$\gg$</td>
+<td align="center">\gg</td>
+<td align="center">远大于</td>
+</tr>
+<tr>
+<td align="center">$\ll$</td>
+<td align="center">\ll</td>
+<td align="center">远小于</td>
+</tr>
+<tr>
+<td align="center">$\nabla$</td>
+<td align="center">\nabla</td>
+<td align="center">算子，倒三角，偏导，梯度</td>
+</tr>
+<tr>
+<td align="center">$\in$</td>
+<td align="center">\in</td>
+<td align="center">属于</td>
+</tr>
+<tr>
+<td align="center">$\subset$</td>
+<td align="center">\sub ，\subset</td>
+<td align="center">包含于</td>
+</tr>
+<tr>
+<td align="center">$\subseteq$</td>
+<td align="center">\subseteq</td>
+<td align="center">包含于</td>
+</tr>
+<tr>
+<td align="center">$\subsetneq$</td>
+<td align="center">\subsetneq</td>
+<td align="center">真包含于</td>
+</tr>
+<tr>
+<td align="center">$\cdot$</td>
+<td align="center">\cdot</td>
+<td align="center">点，点乘</td>
+</tr>
+<tr>
+<td align="center">$\partial$</td>
+<td align="center">\partial</td>
+<td align="center">求偏导</td>
+</tr>
+<tr>
+<td align="center">$\infty$</td>
+<td align="center">\infty</td>
+<td align="center">无穷</td>
+</tr>
+<tr>
+<td align="center">$\propto$</td>
+<td align="center">\propto</td>
+<td align="center">近似于，似然</td>
+</tr>
+<tr>
+<td align="center">$\dot{x}$</td>
+<td align="center">\dot{x}</td>
+<td align="center">上点，导数点</td>
+</tr>
+<tr>
+<td align="center">$\vec{AB}$</td>
+<td align="center">\vec{AB}</td>
+<td align="center">向量</td>
+</tr>
+<tr>
+<td align="center">$\int_{-N}^{N} e^x, dx$</td>
+<td align="center">\int_{-N}^{N} e^x, dx</td>
+<td align="center">积分</td>
+</tr>
+<tr>
+<td align="center">$\iint_{D}^{W} , dx,dy$</td>
+<td align="center">\iint_{D}^{W} , dx,dy</td>
+<td align="center">双重积分</td>
+</tr>
+<tr>
+<td align="center">$\iiint_{E}^{V} , dx,dy,dz$</td>
+<td align="center">\iiint_{E}^{V} , dx,dy,dz</td>
+<td align="center">三重积分</td>
+</tr>
+<tr>
+<td align="center">$\sum_{k&#x3D;1}^N k^2$</td>
+<td align="center">\sum_{k&#x3D;1}^N k^2</td>
+<td align="center">求和</td>
+</tr>
+<tr>
+<td align="center">$\prod_{i&#x3D;1}^N x_i$</td>
+<td align="center">\prod_{i&#x3D;1}^N x_i</td>
+<td align="center">连乘</td>
+</tr>
+<tr>
+<td align="center">$\sim$</td>
+<td align="center">\sim</td>
+<td align="center">波浪号</td>
+</tr>
+<tr>
+<td align="center">$\backsim$</td>
+<td align="center">\backsim</td>
+<td align="center">反波浪号</td>
+</tr>
+<tr>
+<td align="center">$\S$</td>
+<td align="center">\S</td>
+<td align="center">章节符号</td>
+</tr>
+<tr>
+<td align="center">$\ell$</td>
+<td align="center">\ell</td>
+<td align="center">范数</td>
+</tr>
+<tr>
+<td align="center">$|$</td>
+<td align="center">\</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">$\text{/}$</td>
+<td align="center">\text{\&#x2F;}</td>
+<td align="center">反斜杆</td>
+</tr>
+<tr>
+<td align="center">\</td>
+<td align="center">\</td>
+<td align="center">反斜杠</td>
+</tr>
+<tr>
+<td align="center">$\lfloor x \rfloor$</td>
+<td align="center">\lfloor x \rfloor</td>
+<td align="center">向下取整</td>
+</tr>
+<tr>
+<td align="center">$\lceil x \rceil$</td>
+<td align="center">\lceil x \rceil</td>
+<td align="center">向上取整</td>
+</tr>
+</tbody></table>
+<p>反斜杠可以考虑不加入 $$ 中间直接使用，需要输入两个 反斜杠即可。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">方法一：</span><br><span class="line"></span><br><span class="line">$$ </span><br><span class="line">f(x)=\left\&#123;</span><br><span class="line">\begin&#123;aligned&#125;</span><br><span class="line">x &amp; = &amp; \cos(t) \\</span><br><span class="line">y &amp; = &amp; \sin(t) \\</span><br><span class="line">z &amp; = &amp; \frac xy</span><br><span class="line">\end&#123;aligned&#125;</span><br><span class="line">\right.</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">方法二：</span><br><span class="line">$$ </span><br><span class="line">F^&#123;HLLC&#125;=\left\&#123;</span><br><span class="line">\begin&#123;array&#125;&#123;rcl&#125;</span><br><span class="line">F_L       &amp;      &amp; &#123;0      &lt;      S_L&#125;\\</span><br><span class="line">F^*_L     &amp;      &amp; &#123;S_L \leq 0 &lt; S_M&#125;\\</span><br><span class="line">F^*_R     &amp;      &amp; &#123;S_M \leq 0 &lt; S_R&#125;\\</span><br><span class="line">F_R       &amp;      &amp; &#123;S_R \leq 0&#125;</span><br><span class="line">\end&#123;array&#125; \right. </span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">方法三:</span><br><span class="line">$$</span><br><span class="line">f(x)=</span><br><span class="line">\begin&#123;cases&#125;</span><br><span class="line">0,&amp; \text&#123;x=0&#125;\\</span><br><span class="line">1,&amp; \text&#123;x!=0&#125;</span><br><span class="line">\end&#123;cases&#125;</span><br><span class="line">$$</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>对应的效果如图：</p>
+<p>
+$$
+f(x)=\left\{
+\begin{aligned}
+x & = & \cos(t) \\
+y & = & \sin(t) \\
+z & = & \frac xy
+\end{aligned}
+\right.
+$$
+</p>
+
+
+<p>
+$$
+F^{HLLC}=\left\{
+\begin{array}{rcl}
+F_L       &      & {0      <      S_L}\\
+F^*_L     &      & {S_L \leq 0 < S_M}\\
+F^*_R     &      & {S_M \leq 0 < S_R}\\
+F_R       &      & {S_R \leq 0}
+\end{array} \right. 
+$$
+</p>
+
+
+<p>
+$$
+f(x)=
+\begin{cases}
+0,& \text{x=0}\\
+1,& \text{x!=0}
+\end{cases}
+$$
+</p>
+
+
+
+<p>字母头上有：</p>
+<table>
+<thead>
+<tr>
+<th align="center">符号</th>
+<th align="center">表达式</th>
+<th align="center">解释(索引)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">$\vec{c}$</td>
+<td align="center">\vec{c}</td>
+<td align="center">向量c</td>
+</tr>
+<tr>
+<td align="center">$\overleftarrow{ab}$</td>
+<td align="center">\overleftarrow{ab}</td>
+<td align="center">指向左边</td>
+</tr>
+<tr>
+<td align="center">$\overrightarrow{ab}$</td>
+<td align="center">\overrightarrow</td>
+<td align="center">指向右边</td>
+</tr>
+<tr>
+<td align="center">$\hat{A}$</td>
+<td align="center">\hat{A}</td>
+<td align="center">帽</td>
+</tr>
+<tr>
+<td align="center">$\widehat{A}$</td>
+<td align="center">\widehat</td>
+<td align="center">大帽，宽帽</td>
+</tr>
+<tr>
+<td align="center">$\overline{ab}$</td>
+<td align="center">\overline</td>
+<td align="center">上划线</td>
+</tr>
+<tr>
+<td align="center">$\underline{ab}$</td>
+<td align="center">\underline</td>
+<td align="center">下划线</td>
+</tr>
+<tr>
+<td align="center">$\overset{\frown}{ab}$</td>
+<td align="center">\overset</td>
+<td align="center">上弧</td>
+</tr>
+<tr>
+<td align="center">$\widetilde{ab}$</td>
+<td align="center">\widetilde{ab}</td>
+<td align="center">上波浪号</td>
+</tr>
+<tr>
+<td align="center">$\overbrace{1+2+\cdots+100}$</td>
+<td align="center">\overbrace{1+2+\cdots+100}</td>
+<td align="center">上括号</td>
+</tr>
+<tr>
+<td align="center">$\overbrace{1+2+\cdots+100}^{5050}$</td>
+<td align="center">\overbrace{1+2+\cdots+100}^{5050}</td>
+<td align="center">上括号</td>
+</tr>
+<tr>
+<td align="center">$\underbrace{a+b+\cdots+z}$</td>
+<td align="center">\underbrace{a+b+\cdots+z}</td>
+<td align="center">下括号</td>
+</tr>
+<tr>
+<td align="center">$\underbrace{a+b+\cdots+z}_{26}$</td>
+<td align="center">\underbrace{a+b+\cdots+z}_{26}</td>
+<td align="center">下括号</td>
+</tr>
+</tbody></table>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/young951023/article/details/79601664">https://blog.csdn.net/young951023/article/details/79601664</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/q735613050/p/7474449.html">https://www.cnblogs.com/q735613050/p/7474449.html</a></p>
+ 
+
+<h5>
+    <a href="/2022/04/08/javascript_4/">
+        < 上一篇：javascript_4
+    </a>
+</h5>
+
+<h5>
+    <a href="/2022/04/08/hello-world/">
+        下一篇：Hello World >
+    </a>
+</h5>
+ 
+
+		<h3>categories</h3>
+		<ul>
+			
+				<li>
+					<a href="/categories/html/">
+						html 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/Hexo/">
+						Hexo 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/java/">
+						java 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/javascript/">
+						javascript 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/latex/">
+						latex 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/linux/">
+						linux 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/python/">
+						python 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/categories/scala/">
+						scala 
+					</a>
+				</li>
+			
+		</ul>
+
+		<h3>tags</h3>
+		<ul>
+			
+				<li>
+					<a href="/tags/%E7%A4%BA%E4%BE%8B/">
+						示例 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags/demo/">
+						demo 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags/%E7%AC%94%E8%AE%B0/">
+						笔记 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags/%E5%BF%83%E5%BE%97/">
+						心得 
+					</a>
+				</li>
+			
+				<li>
+					<a href="/tags/%E9%9A%8F%E7%AC%94/">
+						随笔 
+					</a>
+				</li>
+			
+		</ul>
+	</body>
+</html>
