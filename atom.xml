@@ -6,7 +6,7 @@
   <link href="https://lim-watt.github.io/atom.xml" rel="self"/>
   
   <link href="https://lim-watt.github.io/"/>
-  <updated>2024-06-03T02:53:26.607Z</updated>
+  <updated>2024-06-04T09:21:01.786Z</updated>
   <id>https://lim-watt.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>白嫖表</title>
+    <link href="https://lim-watt.github.io/2024/06/04/%E7%99%BD%E5%AB%96%E8%A1%A8/"/>
+    <id>https://lim-watt.github.io/2024/06/04/%E7%99%BD%E5%AB%96%E8%A1%A8/</id>
+    <published>2024-06-04T08:42:00.000Z</published>
+    <updated>2024-06-04T09:21:01.786Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录遇到的不给钱的东西。</p><p>一下评论代表个人意见，且只针对免费的部分。</p><h2 id="服务"><a class="markdownIt-Anchor" href="#服务"></a> 服务</h2><h3 id="github-pages"><a class="markdownIt-Anchor" href="#github-pages"></a> github Pages</h3><p>基础。方便。</p><h3 id="cloudflare-pages"><a class="markdownIt-Anchor" href="#cloudflare-pages"></a> cloudflare Pages</h3><p>相较于github Pages，有网络的优势。</p><h3 id="cloudflare-域名相关"><a class="markdownIt-Anchor" href="#cloudflare-域名相关"></a> cloudflare 域名相关</h3><p>好用。</p><p>注意，如果不是绑定的cloudflare Workers/Pages，证书给不到 <code>*.*.your-domain</code>。<s>咱真过分</s></p><h3 id="tinypng图片压缩"><a class="markdownIt-Anchor" href="#tinypng图片压缩"></a> tinypng图片压缩</h3><p>好用。<br />可惜只支持png/jpeg/webp</p><h3 id="vercel"><a class="markdownIt-Anchor" href="#vercel"></a> vercel</h3><p>用途广泛。<br />只是要考虑墙的问题。</p><h3 id="cloudflare-workers"><a class="markdownIt-Anchor" href="#cloudflare-workers"></a> cloudflare Workers</h3><p>一样被墙了……</p><h3 id="giscus评论系统"><a class="markdownIt-Anchor" href="#giscus评论系统"></a> giscus评论系统</h3><p>好用。<br />但为什么最近国内访问不稳定？</p><h2 id="其他奇怪的东西"><a class="markdownIt-Anchor" href="#其他奇怪的东西"></a> 其他奇怪的东西</h2><p>一些没搞懂、没试过或意义不大的玩意。</p><h3 id="云电脑"><a class="markdownIt-Anchor" href="#云电脑"></a> 云电脑</h3><p>比如阿里的无影云。<br />一般有几个月，配置不高不低。不能认真用，但可以拿来耍耍。</p><h3 id="euorg免费域名"><a class="markdownIt-Anchor" href="#euorg免费域名"></a> eu.org免费域名</h3><p>好像可以，但没试过。看起来有点麻烦</p><h3 id="freeing图床"><a class="markdownIt-Anchor" href="#freeing图床"></a> Freeing图床</h3><p>有人推荐，但没试过，需求不大的可以用着。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;记录遇到的不给钱的东西。&lt;/p&gt;
+&lt;p&gt;一下评论代表个人意见，且只针对免费的部分。&lt;/p&gt;
+&lt;h2 id=&quot;服务&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#服务&quot;&gt;&lt;/a&gt; 服务&lt;/h2&gt;
+&lt;h3 id=&quot;github-pages&quot;&gt;&lt;a c</summary>
+      
+    
+    
+    
+    <category term="资源" scheme="https://lim-watt.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>记第一次购买配置域名</title>
