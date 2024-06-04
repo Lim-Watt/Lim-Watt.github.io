@@ -6,7 +6,7 @@
   <link href="https://lim-watt.github.io/atom.xml" rel="self"/>
   
   <link href="https://lim-watt.github.io/"/>
-  <updated>2024-06-03T01:32:57.332Z</updated>
+  <updated>2024-06-03T02:53:26.607Z</updated>
   <id>https://lim-watt.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lim-watt.github.io/2024/06/03/%E8%AE%B0%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B4%AD%E4%B9%B0%E9%85%8D%E7%BD%AE%E5%9F%9F%E5%90%8D/"/>
     <id>https://lim-watt.github.io/2024/06/03/%E8%AE%B0%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B4%AD%E4%B9%B0%E9%85%8D%E7%BD%AE%E5%9F%9F%E5%90%8D/</id>
     <published>2024-06-03T00:14:13.000Z</published>
-    <updated>2024-06-03T01:32:57.332Z</updated>
+    <updated>2024-06-03T02:53:26.607Z</updated>
     
     <content type="html"><![CDATA[<h2 id="域名购买"><a class="markdownIt-Anchor" href="#域名购买"></a> 域名购买</h2><p>用的namesilo买域名，同学推荐的，的确好用。</p><p>namesilo支持支付宝，支付宝不绑定银行卡也有一定额度，喜 <span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://cdn.jsdelivr.net/gh/infinitesum/Twikoo-emoji@master/Blob/ablobcatrainbow.png"/></span>。</p><h2 id="域名解析"><a class="markdownIt-Anchor" href="#域名解析"></a> 域名解析</h2><p>域名解析用的cloudflare，它的网络很好。<a href="https://xiaoheicn.top/cloudflare%e8%a7%a3%e6%9e%90namesilo%e5%9f%9f%e5%90%8d%e6%95%99%e7%a8%8b/"><s>随便丢一个</s>参考教程</a>.</p><h2 id="域名绑定"><a class="markdownIt-Anchor" href="#域名绑定"></a> 域名绑定</h2><p>咱的博客是放在cloudflare pages上的，自定义域 -&gt; 设置自定义域 -&gt; 填入域名 -&gt; ……啊？好啦？<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://cdn.jsdelivr.net/gh/infinitesum/Twikoo-emoji@master/Blob/blobcat0_0.png"/></span></p><p>ps：当时咱正在困惑的问同学A记录、CNAME文件，回过头却发现……好在，线上问的，没人尴尬。</p><p>本来用的 <code>blog.limit-bed.com</code> 子域名，但发现不好看，于是就重新绑上 <code>limit-bed.com</code>。<s>反正就输入一次域名的事。</s></p><p>题外话，咱的博客实际上是本地构建静态资源，<code>hexo d</code> 到.github.io仓库。但是.github.io网不好，又用cloudflare pages绑上了这个仓库。可以试试<a href="https://lim-watt.github.io/">https://lim-watt.github.io/</a>和<a href="https://limit-bed.pages.dev/">https://limit-bed.pages.dev/</a>。于是就有了<s>一个博客两个page服务三个域名的奇观。</s></p>]]></content>
     
