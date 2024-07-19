@@ -3,11 +3,11 @@
   <title>Limit的床头笔记</title>
   
   <subtitle>躇步跐蹈，拒绝烦恼。 | 下雨啦！</subtitle>
-  <link href="https://lim-watt.github.io/atom.xml" rel="self"/>
+  <link href="https://limit-bed.com/atom.xml" rel="self"/>
   
-  <link href="https://lim-watt.github.io/"/>
+  <link href="https://limit-bed.com/"/>
   <updated>2024-07-17T13:50:03.264Z</updated>
-  <id>https://lim-watt.github.io/</id>
+  <id>https://limit-bed.com/</id>
   
   <author>
     <name>Lim Watt</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>考场 NOI Linux 2.0 下的 VSCode 极限展开</title>
-    <link href="https://lim-watt.github.io/article/f5f849be.html"/>
-    <id>https://lim-watt.github.io/article/f5f849be.html</id>
+    <link href="https://limit-bed.com/article/f5f849be.html"/>
+    <id>https://limit-bed.com/article/f5f849be.html</id>
     <published>2024-07-16T11:38:00.000Z</published>
     <updated>2024-07-17T13:50:03.264Z</updated>
     
@@ -34,15 +34,15 @@
     
     
     
-    <category term="文章" scheme="https://lim-watt.github.io/categories/%E6%96%87%E7%AB%A0/"/>
+    <category term="文章" scheme="https://limit-bed.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
   </entry>
   
   <entry>
     <title>白嫖表</title>
-    <link href="https://lim-watt.github.io/article/d886c492.html"/>
-    <id>https://lim-watt.github.io/article/d886c492.html</id>
+    <link href="https://limit-bed.com/article/d886c492.html"/>
+    <id>https://limit-bed.com/article/d886c492.html</id>
     <published>2024-06-04T08:42:00.000Z</published>
     <updated>2024-07-17T11:49:13.059Z</updated>
     
@@ -59,19 +59,19 @@
     
     
     
-    <category term="资源" scheme="https://lim-watt.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    <category term="资源" scheme="https://limit-bed.com/categories/%E8%B5%84%E6%BA%90/"/>
     
     
   </entry>
   
   <entry>
     <title>记第一次购买配置域名</title>
-    <link href="https://lim-watt.github.io/article/de8034df.html"/>
-    <id>https://lim-watt.github.io/article/de8034df.html</id>
+    <link href="https://limit-bed.com/article/de8034df.html"/>
+    <id>https://limit-bed.com/article/de8034df.html</id>
     <published>2024-06-03T00:14:13.000Z</published>
-    <updated>2024-07-17T11:25:47.214Z</updated>
+    <updated>2024-07-19T12:50:43.131Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="域名购买"><a class="markdownIt-Anchor" href="#域名购买"></a> 域名购买</h2><p>用的namesilo买域名，同学推荐的，的确好用。</p><p>namesilo支持支付宝，支付宝不绑定银行卡也有一定额度，喜 <span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://cdn.jsdelivr.net/gh/Lim-Watt/blobcat@master/blobcat_ablobcatrainbow.png"/></span>。</p><h2 id="域名解析"><a class="markdownIt-Anchor" href="#域名解析"></a> 域名解析</h2><p>域名解析用的cloudflare，它的网络很好。<a href="https://xiaoheicn.top/cloudflare%e8%a7%a3%e6%9e%90namesilo%e5%9f%9f%e5%90%8d%e6%95%99%e7%a8%8b/"><s>随便丢一个</s>参考教程</a>.</p><h2 id="域名绑定"><a class="markdownIt-Anchor" href="#域名绑定"></a> 域名绑定</h2><p>咱的博客是放在cloudflare pages上的，自定义域 -&gt; 设置自定义域 -&gt; 填入域名 -&gt; ……啊？好啦？<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://cdn.jsdelivr.net/gh/Lim-Watt/blobcat@master/blobcat_0_0.png"/></span></p><p>ps：当时咱正在困惑的问同学A记录、CNAME文件，回过头却发现……好在，线上问的，没人尴尬。</p><p>本来用的 <code>blog.limit-bed.com</code> 子域名，但发现不好看，于是就重新绑上 <code>limit-bed.com</code>。<s>反正就输入一次域名的事。</s></p><p>题外话，咱的博客实际上是本地构建静态资源，<code>hexo d</code> 到.github.io仓库。但是.github.io网不好，又用cloudflare pages绑上了这个仓库。可以试试<a href="https://lim-watt.github.io/">https://lim-watt.github.io/</a>和<a href="https://limit-bed.pages.dev/">https://limit-bed.pages.dev/</a>。于是就有了<s>一个博客两个page服务三个域名的奇观。</s></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="域名购买"><a class="markdownIt-Anchor" href="#域名购买"></a> 域名购买</h2><p>用的namesilo买域名，同学推荐的，的确好用。</p><p>namesilo支持支付宝，支付宝不绑定银行卡也有一定额度，喜 <span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://cdn.jsdelivr.net/gh/Lim-Watt/blobcat@master/ablobcat_rainbow.png"/></span>。</p><h2 id="域名解析"><a class="markdownIt-Anchor" href="#域名解析"></a> 域名解析</h2><p>域名解析用的cloudflare，它的网络很好。<a href="https://xiaoheicn.top/cloudflare%e8%a7%a3%e6%9e%90namesilo%e5%9f%9f%e5%90%8d%e6%95%99%e7%a8%8b/"><s>随便丢一个</s>参考教程</a>.</p><h2 id="域名绑定"><a class="markdownIt-Anchor" href="#域名绑定"></a> 域名绑定</h2><p>咱的博客是放在cloudflare pages上的，自定义域 -&gt; 设置自定义域 -&gt; 填入域名 -&gt; ……啊？好啦？<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://cdn.jsdelivr.net/gh/Lim-Watt/blobcat@master/blobcat_0_0.png"/></span></p><p>ps：当时咱正在困惑的问同学A记录、CNAME文件，回过头却发现……好在，线上问的，没人尴尬。</p><p>本来用的 <code>blog.limit-bed.com</code> 子域名，但发现不好看，于是就重新绑上 <code>limit-bed.com</code>。<s>反正就输入一次域名的事。</s></p><p>题外话，咱的博客实际上是本地构建静态资源，<code>hexo d</code> 到.github.io仓库。但是.github.io网不好，又用cloudflare pages绑上了这个仓库。可以试试<a href="https://lim-watt.github.io/">https://lim-watt.github.io/</a>和<a href="https://limit-bed.pages.dev/">https://limit-bed.pages.dev/</a>。于是就有了<s>一个博客两个page服务三个域名的奇观。</s></p>]]></content>
     
     
       
@@ -83,19 +83,19 @@
     
     
     
-    <category term="记录" scheme="https://lim-watt.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://limit-bed.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="博客相关" scheme="https://lim-watt.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://limit-bed.com/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="域名" scheme="https://lim-watt.github.io/tags/%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名" scheme="https://limit-bed.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
   <entry>
     <title>博客重建计划</title>
-    <link href="https://lim-watt.github.io/article/80602270.html"/>
-    <id>https://lim-watt.github.io/article/80602270.html</id>
+    <link href="https://limit-bed.com/article/80602270.html"/>
+    <id>https://limit-bed.com/article/80602270.html</id>
     <published>2024-05-31T03:02:13.000Z</published>
     <updated>2024-07-16T11:41:11.001Z</updated>
     
@@ -110,10 +110,10 @@
     
     
     
-    <category term="记录" scheme="https://lim-watt.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://limit-bed.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="博客相关" scheme="https://lim-watt.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://limit-bed.com/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
