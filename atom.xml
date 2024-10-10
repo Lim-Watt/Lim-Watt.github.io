@@ -6,7 +6,7 @@
   <link href="https://limit-bed.com/atom.xml" rel="self"/>
   
   <link href="https://limit-bed.com/"/>
-  <updated>2024-08-20T03:00:51.401Z</updated>
+  <updated>2024-10-09T23:59:21.398Z</updated>
   <id>https://limit-bed.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>英语</title>
+    <link href="https://limit-bed.com/article/e246e5b.html"/>
+    <id>https://limit-bed.com/article/e246e5b.html</id>
+    <published>2024-10-09T23:30:13.000Z</published>
+    <updated>2024-10-09T23:59:21.398Z</updated>
+    
+    <content type="html"><![CDATA[<details class="tag-plugin colorful folding" color="orange"><summary><span>单词本</span></summary><div class="body"><details class="tag-plugin colorful folding" ><summary><span>forum</span></summary><div class="body"><p>n 论坛</p></div></details><details class="tag-plugin colorful folding" ><summary><span>bring up</span></summary><div class="body"><p>养育；提出</p></div></details><details class="tag-plugin colorful folding" ><summary><span>manner</span></summary><div class="body"><p>n 方式；做法；风格；礼貌</p><p>in a visible manner</p></div></details><details class="tag-plugin colorful folding" ><summary><span>affect</span></summary><div class="body"><p>v 影响<br />-&gt; n effect</p></div></details><details class="tag-plugin colorful folding" ><summary><span>due to</span></summary><div class="body"><p>由于</p></div></details><details class="tag-plugin colorful folding" ><summary><span>on an infinite loop</span></summary><div class="body"><p>在无限循环中</p></div></details><details class="tag-plugin colorful folding" ><summary><span>mainstream</span></summary><div class="body"><p>n 主流<br />v 使…成为主流<br />adj 主流的</p></div></details><details class="tag-plugin colorful folding" ><summary><span>the bleeding edge version</span></summary><div class="body"><p>最新版本、最前沿的版本</p></div></details></div></details>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;details class=&quot;tag-plugin colorful folding&quot; color=&quot;orange&quot;&gt;&lt;summary&gt;&lt;span&gt;单词本&lt;/span&gt;&lt;/summary&gt;&lt;div class=&quot;body&quot;&gt;&lt;details class=&quot;tag-plugin </summary>
+      
+    
+    
+    
+    <category term="学习" scheme="https://limit-bed.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>捣腾git</title>
